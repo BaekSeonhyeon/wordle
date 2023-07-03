@@ -1,0 +1,46 @@
+@import 'reset.css';
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+.menu-bar__item {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-bar__icons img {
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.time-title {
+  font-weight: bold;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
